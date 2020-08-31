@@ -16,3 +16,19 @@ export const Container = styled.View`
 `;
 
 export const Main = styled.View``;
+
+export const FollowingText = styled.Text`
+  color: ${colors.black};
+  font-family: "roboto_500";
+  font-size: 40px;
+  margin-top: 10px;
+`;
+
+export const TitleText = styled.Text`
+  color: ${colors.gray};
+  font-family: "roboto_500";
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 42px;
+  margin-bottom: 20px;
+`;
