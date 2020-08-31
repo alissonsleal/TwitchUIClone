@@ -1,5 +1,6 @@
 import styled from "styled-components/native";
 import Constants from "expo-constants";
+
 import colors from "../../styles/colors";
 
 const statusBarHeight =
@@ -16,6 +17,6 @@ export const Wrapper = styled.SafeAreaView`
 
 export const Heading = styled.Text`
   color: ${colors.purple};
-  font-family: roboto_500;
+  font-family: "roboto_500";
   font-size: 30px;
 `;

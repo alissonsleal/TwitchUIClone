@@ -1,7 +1,5 @@
 import React from "react";
-import { View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-
 import { AppLoading } from "expo";
 import {
   Roboto_400Regular,
@@ -20,7 +18,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    <AppLoading />;
+    return <AppLoading />;
   }
   return (
     <>

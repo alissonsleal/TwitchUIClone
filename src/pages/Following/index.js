@@ -1,12 +1,17 @@
 import React from "react";
 import { Text } from "react-native";
 
-import { Wrapper } from "./styles";
+import Header from "../../components/Header";
+
+import { Wrapper, Container, Main } from "./styles";
 
 const Following = () => {
   return (
     <Wrapper>
-      <Text>Following</Text>
+      <Container>
+        <Header />
+        <Main />
+      </Container>
     </Wrapper>
   );
 };
