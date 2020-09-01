@@ -3,6 +3,7 @@ import React from "react";
 
 import Header from "../../components/Header";
 import CategoryList from "../../components/CategoryList";
+import ChannelList from "../../components/ChannelList";
 
 import { Wrapper, Container, Main, FollowingText, TitleText } from "./styles";
 
@@ -14,9 +15,10 @@ const Following = () => {
         <Main>
           <FollowingText>Following</FollowingText>
           <TitleText>Followed Categories</TitleText>
-          <CategoryList></CategoryList>
+          <CategoryList />
 
           <TitleText>Live Channels</TitleText>
+          <ChannelList />
         </Main>
       </Container>
     </Wrapper>

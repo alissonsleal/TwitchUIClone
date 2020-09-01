@@ -11,7 +11,7 @@ export const Wrapper = styled.SafeAreaView`
   flex: 1;
   padding-top: ${statusBarHeight + "px"};
 `;
-export const Container = styled.View`
+export const Container = styled.ScrollView`
   padding-left: 14px;
 `;
 

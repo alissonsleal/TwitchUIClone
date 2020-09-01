@@ -2,8 +2,6 @@ import styled from "styled-components/native";
 
 import colors from "../../styles/colors";
 
-export const Container = styled.View``;
-
 export const List = styled.ScrollView.attrs({
   horizontal: true,
 })`
@@ -13,8 +11,8 @@ export const CategoryContainer = styled.TouchableOpacity`
   margin-right: 10px;
 `;
 export const CategoryImage = styled.Image`
-  width: 100px;
-  height: 134px;
+  width: 133px;
+  height: 178px;
 `;
 export const CategoryName = styled.Text`
   font-family: roboto_700;
