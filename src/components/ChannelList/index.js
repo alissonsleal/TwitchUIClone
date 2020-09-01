@@ -40,12 +40,12 @@ const ChannelList = () => {
 
         <RightContainer>
           <TitleContainer>
-            <Avatar />
+            <Avatar source={item.profile_source} />
             <StreamerName numberOfLines={1}>{item.name}</StreamerName>
           </TitleContainer>
 
           <StreamTitle numberOfLines={1}>Stream Title goes Here</StreamTitle>
-          <StreamGame>{item.game}</StreamGame>
+          <StreamGame numberOfLines={1}>{item.game}</StreamGame>
           <StreamTag>
             <TagText>English</TagText>
           </StreamTag>

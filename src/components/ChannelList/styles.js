@@ -45,33 +45,56 @@ export const RedCircle = styled.View`
 export const ViewerCount = styled.Text`
   color: ${colors.black};
   font-family: roboto_700;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 15px;
 `;
 export const RightContainer = styled.View`
-  background: ${colors.purple};
+  /*   background: ${colors.purple}; */
   flex-direction: column;
   width: 200px;
   height: 110px;
-
   right: 0;
-  /* margin-top: 10px; */
 `;
 export const TitleContainer = styled.View`
   flex-direction: row;
   align-items: center;
+  margin-top: 8px;
 `;
-export const Avatar = styled.View`
+export const Avatar = styled.Image`
   left: 0;
-  width: 32px;
-  height: 32px;
-  color: ${colors.red};
+  width: 18px;
+  height: 18px;
   border-radius: 32px;
-  margin: 0;
-  padding: 0;
 `;
-export const StreamerName = styled.Text``;
-export const StreamTitle = styled.Text``;
-export const StreamGame = styled.Text``;
-export const StreamTag = styled.View``;
-export const TagText = styled.Text``;
+export const StreamerName = styled.Text`
+  color: ${colors.black};
+  font-size: 18px;
+  font-family: roboto_700;
+  margin-left: 6px;
+`;
+export const StreamTitle = styled.Text`
+  color: ${colors.black};
+  font-size: 16px;
+  font-family: roboto_500;
+  margin-top: 1px;
+`;
+export const StreamGame = styled.Text`
+  color: ${colors.black};
+  font-size: 14px;
+  font-family: roboto_400;
+  margin-top: 3px;
+`;
+export const StreamTag = styled.View`
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 20px;
+  background: ${colors.gray};
+  border-radius: 20px;
+  margin-top: 10px;
+`;
+export const TagText = styled.Text`
+  color: ${colors.black};
+  font-family: roboto_500;
+  font-size: 14px;
+`;
