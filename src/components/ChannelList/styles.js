@@ -79,7 +79,7 @@ export const StreamTitle = styled.Text`
   margin-top: 1px;
 `;
 export const StreamGame = styled.Text`
-  color: ${colors.black};
+  color: ${colors.lightGray};
   font-size: 14px;
   font-family: roboto_400;
   margin-top: 3px;
@@ -89,7 +89,7 @@ export const StreamTag = styled.View`
   justify-content: center;
   width: 75px;
   height: 20px;
-  background: ${colors.gray};
+  background: ${colors.tag};
   border-radius: 20px;
   margin-top: 10px;
 `;
