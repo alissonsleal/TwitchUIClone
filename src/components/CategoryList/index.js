@@ -1,5 +1,4 @@
 import React from "react";
-import { View, Text } from "react-native";
 
 import {
   List,
@@ -35,11 +34,3 @@ const CategoryList = () => {
 };
 
 export default CategoryList;
-
-/* {data.map((item) => (
-  <CategoryItem key={item.name} item={item} />
-))} */
-
-{
-  /* <CategoryItem key={data[0].name} item={data[0]}></CategoryItem> */
-}
