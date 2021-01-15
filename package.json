@@ -10,7 +10,7 @@
   "dependencies": {
     "@expo-google-fonts/roboto": "^0.1.0",
     "@react-native-community/masked-view": "0.1.10",
-    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/bottom-tabs": "^5.11.3",
     "@react-navigation/native": "^5.7.3",
     "expo": "~38.0.8",
     "expo-font": "~8.2.1",
